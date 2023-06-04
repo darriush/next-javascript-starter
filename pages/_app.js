@@ -1,4 +1,4 @@
-import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { ThirdwebProvider, useThirdweb } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
@@ -15,3 +15,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+
